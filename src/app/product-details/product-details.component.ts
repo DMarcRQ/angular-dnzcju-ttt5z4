@@ -9,6 +9,8 @@ import { Product, products } from '../products';
 })
 export class ProductDetailsComponent implements OnInit {
 
+  product : Product | undefined;
+
   constructor() { }
 
   ngOnInit(): void {
